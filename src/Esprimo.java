@@ -1,6 +1,6 @@
 
 public class Esprimo {
-	/*public static void main (String [] ar){
+	public static void main (String [] ar){
 	int numero;
 	boolean resultado;
 	Scanner teclado= new Scanner (System.in);
@@ -13,7 +13,7 @@ public class Esprimo {
 	else{
 		System.out.print("El número introducido NO es primo");
 	}
-}*/
+}
 
 public static boolean esprimo(int num){
 	if (num>0){
