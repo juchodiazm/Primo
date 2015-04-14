@@ -17,7 +17,7 @@ public class Esprimo {
 	}
 }
 
-public static boolean esprimo(int num){
+/*public static boolean esprimo(int num){
 	if (num>0){
 		boolean primo=true;
 		for (int i=2; i<num; i++){
@@ -28,7 +28,7 @@ public static boolean esprimo(int num){
 	else{
 		Esprimo.error("número negativo");
 		return false;}
-}
+}*/
 
 public static void error(String s){
 	System.out.print(s);
